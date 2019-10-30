@@ -7,7 +7,19 @@ export const searchFocus = () => ({
 });
 
 export const searchBlur = () => ({
-    type:constants.SEARCH_BLUR
+    type: constants.SEARCH_BLUR
+});
+
+export const mouseEnter = () => ({
+    type:constants.MOUSE_ENTER
+});
+
+export const mouseLeave = () => ({
+    type:constants.MOUSE_LEAVE
+});
+
+export const changePage = () => ({
+    type:constants.CHANGE_PAGE
 });
 
 const changeList = (data) => ({
