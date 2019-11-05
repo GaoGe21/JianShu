@@ -71,6 +71,7 @@ export const ListInfo = styled.div`
         font-size: 18px;
         font-weight: 700;
         line-height: 1.5;
+        color: #333;
     }
     .desc {
         margin: 0 0 8px;
@@ -97,8 +98,6 @@ export const WriterWrapper = styled.div`
     border: 1px solid #dcdcdc;
     border-radius: 3px;
     height: 300px;
-    line-height: 300px;
-    text-align: center;
 `
 
 export const WriterItem = styled.div`
@@ -106,5 +105,29 @@ export const WriterItem = styled.div`
 `
 
 export const WriterInfo = styled.div`
-    
+   
+`
+
+export const LoadMore = styled.div`
+    color: #FFF;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    margin: 30px 0;
+    background: #a5a5a5;
+    text-align: center;
+    border-radius: 20px;
+    cursor: pointer;
+`
+
+export const BackTop = styled.div`
+    position: fixed;
+    right: 80px;
+    bottom: 30px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    font-size: 14px;
+    border: 1px solid #dcdcdc;
 `

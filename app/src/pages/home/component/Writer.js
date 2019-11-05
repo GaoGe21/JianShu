@@ -9,8 +9,6 @@ class Writer extends React.Component {
                 <WriterItem>
                     <img className="pic" src="" alt="" />
                     <WriterInfo>
-                        <div>name</div>
-                        <div>desc</div>
                     </WriterInfo>
                 </WriterItem>
             </WriterWrapper>
