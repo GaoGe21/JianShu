@@ -5,7 +5,7 @@ import Recommend from "./component/Recommend";
 import Writer from "./component/Writer";
 import { HomeWrapper, HomeLeft, HomeRight, BackTop } from "./style";
 import { connect } from "react-redux";
-import { actionCreators, constants } from "./store";
+import { actionCreators } from "./store";
 class Home extends React.Component {
     render() {
         const { showScroll } = this.props;

@@ -39,6 +39,11 @@ export const NavItem = styled.div`
     &.right {
         float: right;
         color: #969696;
+
+        a {
+            color: #969696;
+            text-decoration: solid;
+        }
     }
     &.active {
         color: #ea6f5a;
